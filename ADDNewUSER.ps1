@@ -660,7 +660,7 @@ function GLOBAL:Get-SendEmailToManager {
         }
     }
 }
-#komentarz do git
+#komentarz do git, second
 Remove-Item -Path "$tempNoteFile"
 $onceMoreTurnOn = $(Write-Host "Czy uruchomić ponownie? T [Tak]: " -ForegroundColor DarkGreen -NoNewline; Read-Host)
 if ($onceMoreTurnOn -eq "T") { & C:\Scripts\ADDNewUSER.ps1 } else {break}
