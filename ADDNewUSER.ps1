@@ -422,8 +422,6 @@ function GLOBAL:Get-ChoiseManagerInOrganizationUnit {
         $numberOfTablesManager[$numberManager] = $manager.Surname, $manager.GivenName, $manager.EmailAddress, $manager.SamAccountName, $manager.Displayname
     }
 
-
-        $i = 0
        $i = 0
     do {
         $i++
